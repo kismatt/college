@@ -1,0 +1,95 @@
+
+.holder{
+	margin-top:270px;
+	position:absolute;
+	margin-left:100px;
+	color:#fff;
+	font-family:Roboto;
+	font-size:1.5em;
+    text-shadow: 2px 2px #FF0000;
+
+
+}
+.section{
+
+	position:absolute;
+	margin-left:100px;
+	margin-top:320px;
+	color:#fff;
+	font-weight:bolder;
+	text-shadow:4px 4px black;
+	animation-name:project;
+	animation-duration:4s;
+	display:block;
+
+}
+
+@keyframes project{
+	0%{
+	    display:block;
+		margin-top:320px;
+	}
+	100%{
+		opacity:6;
+		display:block;
+		margin-top:300px;
+
+	}
+	
+}
+.py-5 .container .card-border:hover{
+    
+	box-shadow:10px 10px 20px 4px;
+	margin-bottom:7px;
+	transition:1s;
+	margin-bottom:10px;
+
+
+	
+}
+.card-header{
+	background:yellow;
+   -webkit-clip-path: polygon(21% 100%, 43% 67%, 46% 0, 0 0, 0 66%);
+clip-path: polygon(21% 100%, 43% 67%, 46% 0, 0 0, 0 66%);
+}
+.card-header{
+	background:yellow;
+}
+
+
+/*tabs css starts from here*/
+
+
+section {
+	margin-top:100px;
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+    
+}
+#tabs{
+	background:#fff;
+    color:black;
+}
+#tabs h6.section-title{
+    color: black;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    
+    
+    border-bottom: 4px solid #01BFBD !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+   
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: black;
+    font-size: 20px;
+}
